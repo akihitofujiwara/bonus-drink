@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    kansuu (0.0.0)
+      lambda_driver (~> 1.2.4)
+    lambda_driver (1.2.4)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -15,4 +18,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kansuu (~> 0.0.0)
+  lambda_driver (~> 1.2.4)
   rspec (~> 2.14)
+
+RUBY VERSION
+   ruby 2.2.2p95
+
+BUNDLED WITH
+   1.12.5
